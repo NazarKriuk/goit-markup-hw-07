@@ -1,0 +1,45 @@
+.policy-text {
+    margin-bottom: 30px;
+
+
+&-list {
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 1, 714;
+    letter-spacing: 0.03em;
+}
+
+&-item {
+    appearance: none;
+}
+
+&-icon {
+    position: absolute;
+    fill: transparent;
+    border: 2px solid var(--color-primary);
+    border-radius: 2px;
+}
+
+&-item:checked + &-icon {
+    fill: var(--color--white);
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+&-label {
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+}
+
+&-conditions {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 711;
+    letter-spacing: 0.03em;
+    color: var(--color-hover);
+}
+}

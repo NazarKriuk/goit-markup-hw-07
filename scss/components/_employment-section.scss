@@ -1,0 +1,44 @@
+.employment-section {
+    padding-bottom: 94px;
+
+
+    .employment__title {
+        color: var(--color-primary);
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 36px;
+        line-height: 1.166;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .employment-item {
+        position: relative;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 30px;
+
+        .employment__item—caption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(47, 48, 58, 0.8);
+        }
+
+        .employment__item—caption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 370px;
+            height: 70px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            color: var(--color--white);
+            text-transform: uppercase;
+        }
+    }
+
+}
